@@ -1,0 +1,116 @@
+
+.colorTitle {
+  color: #774ad8;
+  font-family: Helvetica, fantasy;
+  font-size: 55pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Căn giữa văn bản */
+}
+
+.backgroundAll {
+  background-color: #f2e9fe;
+  padding: 50px;
+
+}
+
+.colorBackground {
+  background-color: #6230d5;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 25px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: Helvetica, serif;
+  font-size: 20pt;
+  padding-top: 20px;
+  color: #f2e9fe;
+  margin-left: 20px;
+
+}
+
+.textSmail {
+  font-family: Helvetica, serif;
+  font-size: 14pt;
+  padding-left: 10px;
+  color: #f2e9fe;
+  margin-left: 10px;
+}
+
+.textBlockquote {
+  font-family: Helvetica, serif;
+  font-size: 14pt;
+  color: #f2e9fe;
+  padding-left: 5px;
+}
+
+.columnText {
+  position: relative;
+  padding-left: 25px; /* Thêm padding bên trái để tách cột và chữ */
+  margin: 20px;
+  font-family: Helvetica, serif;
+  font-size: 14pt;
+
+  color: #f2e9fe;
+}
+
+.columnText::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100%;
+  background-color: #ffd500;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+
+}
+
+.markText {
+  font-family: Helvetica, serif;
+  font-size: 14pt;
+  color: black;
+  background: #ddc593;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.buttonCus {
+  font-family: Helvetica, serif;
+  font-size: 14pt;
+  color: black;
+  margin-top: 30px;
+  border: 2px solid #ffd500;
+  background: #ffd500;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  left: 40%;
+  opacity: 0.75;
+}
+
+.note {
+  color: #000000;
+  font-family: Helvetica, fantasy;
+  font-size: 12pt;
+  /*text-align: center; !* Căn giữa văn bản *!*/
+  margin-top: 80px;
+  opacity: 0.8;
+  margin-left: 590px;
+}
