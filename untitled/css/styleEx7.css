@@ -1,12 +1,15 @@
 
 .colorTitle {
-  color: #774ad8;
-  font-family: Helvetica, fantasy;
-  font-size: 55pt;
+  color: #c8ff05;
+  font-family: Arial, serif;
+  font-size: 20pt;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; /* Căn giữa văn bản */
+  flex: 1;
+  margin: 0 10px;
 }
 
 .backgroundAll {
@@ -27,9 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
 }
 
 .text {
@@ -40,8 +41,12 @@
   font-size: 20pt;
   padding-top: 20px;
   color: #f2e9fe;
-  margin-left: 20px;
-
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 10px;
+  flex: 1;
+  margin: 0 10px;
 }
 
 .textSmail {
