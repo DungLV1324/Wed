@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Ex5</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 10%;
+    }
+
+    header nav ul li {
+      list-style: none;
+      float: left;
+      padding: 10px 20px;
+      color: #000000;
+      cursor: pointer;
+    }
+
+    header nav ul li:hover {
+      color: #6230d5;
+    }
+
+    header title {
+      width: 150px;
+      cursor: pointer;
+    }
+    .inline {
+      display: flex;
+      align-items: center; padding: 20px;
+      margin:0 10px;
+      background: #425c7c;
+      color: white;
+    }
+
+    .title {
+      top: 20px;
+      left: 5%;
+      padding-left: 10px;
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+<header>
+  <h3 class="title">TLU</h3>
+  <nav>
+    <div>
+      <ul>
+        <li>
+          <a> TRANG CHỦ</a>
+        </li>
+        <li>
+          <a> QUẢN LÝ NHÂN VIÊN</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <form>
+    <input type="search" placeholder="Nhập thông tin tại đây" aria-label="Search">
+    <button type="submit">Tìm kiếm</button>
+  </form>
+</header>
+<div class="inline">
+  <h3>Quản lý <b>Nhân viên</b></h3>
+  <p>Xóa</p>
+  <p>Thêm nhân viên</p>
+</div>
+
+</body>
+</html>
